@@ -1,0 +1,86 @@
+/*==============Home page====================*/
+
+
+/*remove box-shadow for homepage*/
+
+.section-without-shadow {
+    background: transparent;
+    box-shadow: none;
+}
+
+.pt-page .inner {
+    position: relative;
+    padding: 20px 60px 50px;
+    margin: 0 auto;
+}
+
+.home-page-block {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+.home-page-block h2 {
+    color: #ff724c;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    margin: 0;
+}
+
+.table {
+    display: table;
+    /*    let the element behave like <table>*/
+    table-layout: fixed;
+    /*    The horizontal layout only depends on the table's width and the width of the columns, not the contents of the cells*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+.table>div {
+    /*    css3 selector ">" means choose second element where the first element is a parent element*/
+    display: table-cell;
+    /*    let the element behave like a <td>element*/
+    vertical-align: middle;
+    /*    the element is placed in the middle of the parent element*/
+}
+
+.carousel {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.home-page-description {
+    color: #222;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    margin: 0 0 5px;
+    text-align: center;
+    display: block;
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+    /*    o->50->100: fadeIn and fadeOut*/
+}
+
+.fade {
+    animation: fading 5s infinite;
+    animation-timing-function: cubic-bezier(.05, .43, .95, .39);
+}
+
+
+/*==============Home page====================*/

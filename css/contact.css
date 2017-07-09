@@ -1,0 +1,164 @@
+/*==============Contact me====================*/
+
+#map {
+    height: 30%;
+}
+
+.contact-description {
+    text-align: justify;
+}
+
+.form-group {
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.form-control {
+    height: 42px;
+}
+
+.form-control-icon {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    font-size: 24px;
+    color: #aaa;
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control,
+.has-error .form-control:focus {
+    position: relative;
+    border: 1px solid #bbb;
+    border-radius: 0;
+    display: block;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 10px 35px 10px 12px;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+    box-shadow: none;
+    outline: none;
+    font-family: 'PT Sans', Helvetica, sans-serif;
+}
+
+.form-control-icon {
+    position: absolute;
+    /*    to display it inside placeholder*/
+    top: 9px;
+    right: 12px;
+    font-size: 24px;
+    color: #aaa;
+}
+
+.form-control+.form-control-border {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #ff724c;
+    height: 2px;
+    transition: all 0.4s ease-in-out;
+}
+
+.form-control:focus+.form-control-border {
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.has-error .form-control+.form-control-border {
+    background: #ff4c4c;
+}
+
+.form-control:focus+.form-control-border+.form-control-icon {
+    /*    +selector: choose the element right after it*/
+    color: #ff724c;
+}
+
+.form-group .help-block {
+    position: absolute;
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: -2px 0 0 10px;
+    color: #fff;
+    background: #ff4c4c;
+}
+
+.form-group .help-block:after {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    bottom: 100%;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #ff4c4c;
+    border-right: 10px solid transparent;
+}
+
+.form-group .help-block:empty {
+    display: none;
+}
+
+input[type=submit] {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #ff724c;
+    line-height: 1.2;
+    color: #222;
+    text-shadow: none;
+    background: none;
+    padding: 0.8em 2em;
+    margin-bottom: .25em;
+    border-radius: 0;
+}
+
+input[type=submit]:hover {
+    background-color: #ff724c;
+    color: #fff;
+}
+
+.contact-info-block {
+    position: relative;
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 10px 10px 10px 0;
+}
+
+.contact-info-block .ci-icon {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.contact-info-block .ci-text {
+    position: relative;
+    padding-left: 50px;
+}
+
+.ci-icon i {
+    color: #ff724c;
+    position: relative;
+    font-size: 30px;
+}
+
+.contact-info-block h5 {
+    margin: 5px 0;
+}
+
+.maps {
+    margin-top: 50px;
+}
+
+
+/*==============Contact me====================*/

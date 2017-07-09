@@ -1,0 +1,191 @@
+/*==============About page====================*/
+
+.border-block-top {
+    width: 110px;
+    height: 110px;
+    border-top: 3px solid #ff724c;
+    border-left: 3px solid #ff724c;
+    display: inline-block;
+    position: absolute;
+    z-index: 0;
+    top: 10px;
+    left: 20px;
+    background: transparent;
+}
+
+.my-photo-block {
+    position: relative;
+}
+
+.info-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info-list li {
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.info-list li:first-child {
+    padding-top: 0;
+}
+
+.info-list li .title {
+    display: inline-block;
+    font-family: 'Oxygen', Helvetica, sans-serif;
+    font-weight: 700;
+    margin-right: 12px;
+    color: #222;
+}
+
+.info-list li .title:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: -3px;
+    background-color: #ff724c;
+}
+
+.info-list li .value {
+    font-family: 'PT Sans', Helvetica, sans-serif;
+    min-width: 250px;
+}
+
+.social-link {
+    display: block;
+    list-style: none;
+    margin: 25px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.social-link li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.social-link li a {
+    display: inline-block;
+    margin: 0 1px;
+    width: 34px;
+    height: 34px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.social-link li a:hover {
+    color: #fff;
+    background-color: #ff724c;
+    border-color: transparent;
+}
+
+.social-link li a i {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.social-link li:last-child a {
+    margin-right: 0;
+}
+
+
+/*Service block*/
+
+.subpage-block {
+    margin-bottom: 30px;
+}
+
+.service-block {
+    text-align: center;
+}
+
+.service-info img {
+    height: 80px;
+    width: 80px;
+    margin: 20px 0;
+}
+
+.service-image {
+    width: 120px;
+    height: 120px;
+    background-color: #fafafa;
+    border-radius: 100px;
+    margin: 0 auto;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-image:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/*Service block*/
+
+
+/*Software block*/
+
+.software {
+    text-align: center;
+}
+
+.soft-icon {
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.soft-icon:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+
+
+/*Software block*/
+
+
+/*Fun fact block*/
+
+.fun-fact-block {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0;
+    background: #fff;
+    padding: 20px 10px 15px;
+}
+
+.fun-fact-block h4 {
+    margin-top: 10px;
+}
+
+.fun-fact-block .pe-7s-icon {
+    position: relative;
+    font-size: 56px;
+    color: #888;
+}
+
+.fun-fact-block .fun-value {
+    font-size: 24px;
+    font-weight: 300;
+    display: block;
+    margin: 10px 0;
+    color: #ff724c;
+}
+
+
+/*Fun fact block*/
+
+
+/*==============End of About page====================*/
